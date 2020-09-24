@@ -1,1 +1,21 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+
+.schedules {
+    display: flex;
+    margin: auto;
+}
+
+.rtable {
+    width: 100%;
+    text-align: center;
+}
+    .rtable thead {
+        background: green;
+        font-weight: bold;
+        color: lightgreen;
+    }
+    .rtable tbody tr :nth-child(2n) {
+        background: rgb(159, 211, 159);
+    }
