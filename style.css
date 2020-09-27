@@ -10,11 +10,12 @@
     background-attachment: fixed;
 }
 
-
-
 .schedules {
     display: flex;
     margin: auto;
+    padding-top: 60px;  
+
+    
 }
 
 .rtable {
@@ -22,12 +23,12 @@
     text-align: center;
 }
     .rtable thead {
-        background: green;
+        background: rgb(4, 80, 98);
         font-weight: bold;
-        color: lightgreen;
+        color: rgb(111, 235, 208);
     }
-    .rtable tbody tr :nth-child(2n) {
-        background: rgb(159, 211, 159);
+    .rtable tbody tr :nth-child(1n) {
+        background: rgb(130, 201, 202); 
     }
     .rtable{
         height: 200px;
